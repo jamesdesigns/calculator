@@ -5,6 +5,7 @@
   padding: 20px;
   border-radius: 10px;
   color: white;
+  margin: 12% auto;
 }
 
 .orange { background-color: orange;}
@@ -42,6 +43,16 @@
   border-radius: 5px;
   border: none;
   background-color: orange;
+  color: white;
+  cursor: pointer;
+}
+
+.buttonDark {
+  font-size: 1.5rem;
+  padding: 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(21, 19, 15);
   color: white;
   cursor: pointer;
 }

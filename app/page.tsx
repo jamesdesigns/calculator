@@ -69,7 +69,7 @@ const Calculator = () => {
     <div className={styles.calculator}>
       <div className={styles.display}>{currentInput}</div>
       <div className={styles.buttons}>
-        <button onClick={handleClear} className={styles.button}>C</button>
+        <button onClick={handleClear} className={styles.buttonDark}>C</button>
         <button onClick={() => handleOperationClick('/')} className={styles.buttonOrange}>÷</button>
         <button onClick={() => handleOperationClick('*')} className={styles.buttonOrange}>×</button>
         <button onClick={() => handleOperationClick('-')} className={styles.buttonOrange}>−</button>
